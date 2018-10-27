@@ -1,6 +1,8 @@
 # Sticky Header Control with old React 15.4
 
-# Technology stack
+Idea behind this project is to make Sticky control found on GitHub make work on entire page in specific way for the React v15.4
+
+## Technology stack
 react: 15.4.2
 react-dom: 15.4.2
 
@@ -11,4 +13,5 @@ react-router-redus 4.0.4
 redux: 3.3.1
 redux-api 0.9.7
 
-- Why? Don't ask ...
+## Why? 
+Don't ask ...

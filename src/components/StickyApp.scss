@@ -1,0 +1,42 @@
+html, body, .container {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 30px;
+  border: 1px solid blue;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.block {
+  overflow: hidden;
+  position: relative;
+  .sticky {
+    z-index: 2;
+    box-shadow: 0 2px 5px 0 black;
+    margin: 0 -30px;
+    width: 100% !important;
+  }
+
+  h2 {
+    &.header {
+      background: #577796;
+    }
+    &.footer {
+      background: #612624;
+    }
+    line-height: 30px;
+  }
+
+  p {
+    font-size: 1.5em;
+    margin: 0;
+    background: #BEC6D7;
+  }
+}
