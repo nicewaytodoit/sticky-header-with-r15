@@ -1,0 +1,56 @@
+# Each page/control has its own folder, name of Contols begin with small letter, name of pages/Components PascalCasing
+
++ assets
+    images 
+    styles 
+    ...
++ controls
+    + Error
+    + Message
+    + Navigation
+    + Logo ..
+    + UI
+        - Modal / Backdrop
+        - Buton
+        - Input
+        - Spinner
+
++ components
+    + pages 
+        + Page1
+        + Page2
+            Page2.jsx
+    + layout
++ HOC - (Higher Order Components) ?
+    Auxilary
+    Layout 
+    withError 
+    ... etc.
++ shared
+    + libs
+
++ mocks - ? ()
++ tests - ? ()
+
++ store 
+    + actions
+        + actionTypes
+            user.actionType.js
+            product.actionType.js
+            index.js
+        user.action.js
+        product.action.js
+        index.js
+    + reducers
+        user.reducer.js
+        user.reducer.js
+        index.js
+    + helpers
+
+    + selectors
+        user.selector.js
+    + sagas
+        user.saga.js
+        ...
+        inder.js
+    store.js

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Sticky from '../controls/UI/StickyHeader/StickyHeader';
+import Auxilary from './Axilary';
 import './StickyApp.scss';
 
 function callback(status) {
